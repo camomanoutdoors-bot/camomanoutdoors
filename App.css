@@ -149,6 +149,18 @@
   max-width: 760px;
 }
 
+.hero__brandmark {
+  margin-bottom: 18px;
+}
+
+.hero__brandmark img {
+  display: block;
+  width: clamp(110px, 14vw, 150px);
+  height: auto;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.16));
+  opacity: 0.96;
+}
+
 .hero__copy h1 {
   max-width: 10ch;
   font-family: 'Playfair Display', serif;
@@ -653,6 +665,10 @@
 }
 
 @media (max-width: 640px) {
+  .hero__brandmark img {
+    width: 108px;
+  }
+
   .hero__copy h1 {
     font-size: 2.3rem;
   }
