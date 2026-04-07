@@ -669,6 +669,16 @@
     display: grid;
   }
 
+  .footer__inner {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .footer__inner > div {
+    width: 100%;
+    text-align: center;
+  }
+
   .hero__highlights li {
     width: 100%;
   }
