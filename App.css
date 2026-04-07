@@ -675,6 +675,16 @@
   }
 
   .footer__inner > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__inner a,
+  .footer__inner p,
+  .footer__title {
     width: 100%;
     text-align: center;
   }
