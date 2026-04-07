@@ -140,7 +140,10 @@
 .hero__content {
   position: relative;
   z-index: 1;
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
   padding-top: 140px;
   padding-bottom: 84px;
 }
@@ -150,15 +153,17 @@
 }
 
 .hero__brandmark {
-  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero__brandmark img {
   display: block;
-  width: clamp(110px, 14vw, 150px);
+  width: clamp(280px, 32vw, 430px);
   height: auto;
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.16));
-  opacity: 0.96;
+  filter: drop-shadow(0 18px 34px rgba(0, 0, 0, 0.2));
+  opacity: 0.98;
 }
 
 .hero__copy h1 {
@@ -605,6 +610,7 @@
 }
 
 @media (max-width: 960px) {
+  .hero__content,
   .about,
   .card-grid,
   .service-grid,
@@ -615,6 +621,15 @@
 
   .hero__copy h1 {
     max-width: 14ch;
+  }
+
+  .hero__brandmark {
+    order: -1;
+    justify-content: flex-start;
+  }
+
+  .hero__brandmark img {
+    width: min(260px, 58vw);
   }
 }
 
@@ -665,8 +680,12 @@
 }
 
 @media (max-width: 640px) {
+  .hero__brandmark {
+    margin-bottom: 6px;
+  }
+
   .hero__brandmark img {
-    width: 108px;
+    width: 140px;
   }
 
   .hero__copy h1 {

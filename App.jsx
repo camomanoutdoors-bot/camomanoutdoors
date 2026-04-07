@@ -89,9 +89,6 @@ function Hero({ site }) {
       <div className="hero__wash" />
       <div className="container hero__content">
         <div className="hero__copy">
-          <div className="hero__brandmark" aria-hidden="true">
-            <img src="/logo.png" alt="" />
-          </div>
           <p className="section-kicker">Licensed Guide Service</p>
           <h1>Camo Man Outdoors</h1>
           <p className="hero__title-detail">Licensed New York State Hunting and Fishing Guide</p>
@@ -113,6 +110,10 @@ function Hero({ site }) {
             <li>Open Water Inland Fishing</li>
             <li>Ice Water Inland Fishing</li>
           </ul>
+        </div>
+
+        <div className="hero__brandmark" aria-hidden="true">
+          <img src="/logo.png" alt="" />
         </div>
       </div>
     </section>
