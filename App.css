@@ -562,12 +562,16 @@
   gap: 24px;
 }
 
-.footer__inner > div:first-child {
+.footer__brand {
   text-align: center;
 }
 
-.footer__inner > div:first-child p {
+.footer__brand p {
   text-align: center;
+}
+
+.footer__contact {
+  text-align: left;
 }
 
 .footer__logo {
@@ -670,22 +674,31 @@
   }
 
   .footer__inner {
+    grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
   }
 
-  .footer__inner > div {
+  .footer__brand,
+  .footer__contact {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    max-width: 320px;
     width: 100%;
+    margin: 0 auto;
     text-align: center;
   }
 
-  .footer__inner a,
-  .footer__inner p,
+  .footer__brand p,
+  .footer__contact a,
+  .footer__contact p,
   .footer__title {
+    display: block;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 

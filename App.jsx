@@ -309,11 +309,11 @@ function Footer({ site }) {
   return (
     <footer className="footer">
       <div className="container footer__inner">
-        <div>
+        <div className="footer__brand">
           <img className="footer__logo" src="/logo.png" alt="Camo Man Outdoors logo" />
           <p>{site.slogan}</p>
         </div>
-        <div>
+        <div className="footer__contact">
           <p className="footer__title">Contact</p>
           <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
           <p>{site.serviceArea}</p>
