@@ -712,6 +712,14 @@
     grid-template-columns: 1fr;
   }
 
+  .hero__copy {
+    margin: 0 auto;
+  }
+
+  .hero .section-kicker {
+    text-align: center;
+  }
+
   .hero__copy h1 {
     max-width: 14ch;
   }
@@ -719,7 +727,8 @@
   .hero__brandmark {
     order: -1;
     justify-content: center;
-    margin-top: 38px;
+    margin-top: 52px;
+    margin-bottom: 18px;
   }
 
   .hero__brandmark img {
@@ -769,7 +778,7 @@
   }
 
   .hero__content {
-    padding-top: 148px;
+    padding-top: 172px;
   }
 }
 
@@ -780,8 +789,8 @@
 
   .hero__brandmark {
     justify-content: center;
-    margin-top: 62px;
-    margin-bottom: 6px;
+    margin-top: 78px;
+    margin-bottom: 18px;
   }
 
   .hero__brandmark img {
