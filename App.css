@@ -547,6 +547,10 @@
   max-width: 30ch;
 }
 
+.portfolio-panel h3 {
+  min-height: 2.8em;
+}
+
 .portfolio-panel__cta {
   margin-top: auto;
   padding-top: 24px;

@@ -18,7 +18,7 @@
   --text-light: #f5f0e0;
 
   --section-pad: clamp(60px, 8vw, 120px);
-  --container: 1100px;
+  --container: 1400px;
 }
 
 *, *::before, *::after {
