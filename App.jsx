@@ -26,7 +26,6 @@ const GALLERIES = {
       { src: '/galleries/deer/img-6185.jpg', alt: 'Whitetail deer hunting photo 14', caption: 'Whitetail Deer Gallery' },
       { src: '/galleries/deer/img-6306.jpg', alt: 'Whitetail deer hunting photo 15', caption: 'Whitetail Deer Gallery' },
       { src: '/galleries/deer/img-0266.jpg', alt: 'Whitetail deer hunting photo 16', caption: 'Whitetail Deer Gallery' },
-      { src: '/galleries/deer/img-6757.jpg', alt: 'Whitetail deer hunting photo 17', caption: 'Whitetail Deer Gallery' },
       { src: '/galleries/deer/img-3928.png', alt: 'Whitetail deer hunting photo 18', caption: 'Whitetail Deer Gallery' },
       { src: '/galleries/deer/img-4067.png', alt: 'Whitetail deer hunting photo 19', caption: 'Whitetail Deer Gallery' },
       { src: '/galleries/deer/img-4093.png', alt: 'Whitetail deer hunting photo 20', caption: 'Whitetail Deer Gallery' }
@@ -359,7 +358,7 @@ function Portfolio() {
           <p className="section-kicker">Portfolio</p>
           <h2>Seasonal experience built around New York whitetails and inland fisheries.</h2>
           <p className="section-intro">
-            Choose a category below to open the full gallery experience. Each collection gets its own dedicated page so visitors can browse every photo without crowding the homepage.
+            Click either gallery below to view the full photo collection.
           </p>
         </div>
 
