@@ -91,12 +91,20 @@ function Hero({ site }) {
         <div className="hero__copy">
           <p className="section-kicker">Licensed Guide Service</p>
           <h1>Camo Man Outdoors</h1>
-          <p className="hero__title-detail">Licensed New York State Hunting and Fishing Guide</p>
+          <p className="hero__title-detail">
+            Charles Florczyk - Licensed New York State Hunting and Fishing Guide #10023
+          </p>
+          <p className="hero__credential-detail">
+            New York State DEC Certified Hunter Education Instructor for Archery &amp; Firearm
+          </p>
           <p className="hero__slogan">
             <span>Making Your Memories</span>
             <strong>The Trophy</strong>
           </p>
           <p className="hero__service-area">{site.serviceArea}</p>
+          <p className="hero__disclaimer">
+            Tentative charter bookings to begin June 1, 2026, pending confirmation of the USCG OUPV (Operator of Uninspected Passenger Vessels) license.
+          </p>
           <div className="hero__actions">
             <a href="#get-started" className="button button--primary">
               Start Planning

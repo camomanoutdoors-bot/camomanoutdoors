@@ -186,6 +186,17 @@
   color: rgba(250, 247, 239, 0.78);
 }
 
+.hero__credential-detail {
+  max-width: 34ch;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(0.82rem, 1.2vw, 0.98rem);
+  line-height: 1.45;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(250, 247, 239, 0.68);
+}
+
 .section-kicker {
   margin-bottom: 18px;
   font-family: 'Oswald', sans-serif;
@@ -224,6 +235,14 @@
 .hero__service-area {
   margin-top: 18px;
   color: rgba(250, 247, 239, 0.68);
+}
+
+.hero__disclaimer {
+  max-width: 48ch;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: rgba(250, 247, 239, 0.72);
 }
 
 .hero__actions {
@@ -773,6 +792,12 @@
 
   .hero__copy h1 {
     font-size: 2.3rem;
+  }
+
+  .hero__title-detail,
+  .hero__credential-detail,
+  .hero__disclaimer {
+    max-width: none;
   }
 
   .section-kicker {
