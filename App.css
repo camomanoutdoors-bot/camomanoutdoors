@@ -1050,7 +1050,7 @@
     text-align: center;
   }
 
-  .footer__social {
+  .footer__contact .footer__social {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1062,7 +1062,7 @@
     text-align: left;
   }
 
-  .footer__social span {
+  .footer__contact .footer__social span {
     width: auto;
     margin: 0;
   }
